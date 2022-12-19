@@ -12,31 +12,15 @@
   <h1 class="jumbo">{{ title }}</h1>
   <h2>{{ subtitle }}</h2>
 </div>
-<p>category works!</p>
-<!--
-<div class="container">
-    <h2>Bordered Table</h2>
-              
-    <table class="table table-bordered">
-     
-      <tbody>
-        <tr *ngFor="let category of categories">
-          <td>{{category.name}}</td>
-          <td>{{category.description}}</td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
-*/hjs
- 
--->
+
+
 
 
   <div class="container">
     <h2>View Products</h2>
     
     <div class="card" style="width:400px"  *ngFor="let category of categories">
-      <img class="card-img-top" src="https://www.nichea.co.za/nichea/nichea/file/"{{category.id}} alt="Card image" style="width:100%">
+      <img class="card-img-top" src="" alt="Card image" style="width:100%">
       <div class="card-body">
         <h4 class="card-title"> {{category.name}}</h4>
         <a href="#" class="btn btn-primary stretched-link">view Products</a>
